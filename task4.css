@@ -113,4 +113,18 @@ body{
     height:80vh; 
     margin-right: 2%;
 }
+.form-row {
+  display: flex;
+  align-items: center;
+}
 
+.form-row label {
+  width:75px; 
+  text-align:right;
+}
+
+.form-row input {
+  /* flex: 1; */
+  padding:1px;
+  box-sizing: border-box;
+}
