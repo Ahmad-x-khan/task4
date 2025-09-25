@@ -547,3 +547,19 @@ span{
     margin-left: 30%;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4) ;
 }
+@media(min-width:769px){
+    .lastfooterleftbtn{
+        margin-left: 50%;
+    }
+    .lastfooterleftbtn button{
+        font-size: 17px;
+    }
+}
+@media(max-width:768px){
+     .lastfooterleftbtn{
+        margin-left:0%;
+    }
+    .lastfooterleftbtn button{
+        font-size: 10%;
+    }
+}
