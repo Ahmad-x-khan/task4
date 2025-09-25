@@ -479,24 +479,26 @@ span{
 }
 .lastfooterlefth3{
   display: flex;
-  width: 30vh;
+  width: 40vh;
+ 
 }
 .lastfooterleftbtn{
     background-color: gray;
      margin-top: 10%;
-    margin-left: 70%;
+    margin-left: 53%;
     align-items: center;
     
 }
 .lastfooterleftimg img{
     width: 1vw;
-    height: 11vh;
+    height: 11.5vh;
 }
 .lastfooterlefth3 h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-left: 3%;
     color: white;
+   
 }
 .lastfooterleftbtn button{
     font-family: Arial, Helvetica, sans-serif;
