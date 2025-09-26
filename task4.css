@@ -484,7 +484,8 @@ span{
 }
 .lastfooterleftbtn{
     background-color: gray;
-     margin-top: 4%;
+     margin-top: 10%;
+     margin-left: 3%;
     align-items: center;
     
 }
