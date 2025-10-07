@@ -477,7 +477,10 @@ span{
     margin-left: 27%;
     margin-top: 3%;
 }
-
+.rightsidebarleft img{
+    width:10vw;
+    height: 12vh;
+}
 .rightsidebarbtn button{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 32%;
@@ -485,7 +488,7 @@ span{
     background-color: rgba(170, 4, 4, 0.959);
     border: none;
     padding: 6px;
-    width: 9.5vw;
+    width: 10vw;
     font-size: 15px;
     color: white;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4) ;
@@ -536,14 +539,17 @@ span{
 }
 .lastfooterlefth3{
   display: flex;
-  width: 40vh;
+  width:19vw;
  
 }
 .lastfooterleftbtn{
     background-color: gray;
-     margin-top: 10%;
-     margin-left: 3%;
+    margin-top: 10%; 
     align-items: center;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    width: 100%;
     
 }
 
@@ -562,7 +568,6 @@ span{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: gray;
-   width: 10vw;
    font-size: 16px;
    font-weight: bold;
    border: none;
@@ -617,10 +622,8 @@ span{
 
 .lastfooterleftbtn{
     text-align: end;
-
     display: flex;
     justify-content: end;
-    width: 100%;
 }
 
 .lastfooterimgbarul{
@@ -635,7 +638,9 @@ span{
 .lastimgfooter{
     display: flex ; justify-content: center;
 }
- 
+ .lastfooteerbarimg img{
+    width:10vw;
+ }
 
 
 /* ####################### media query ####################### */
@@ -1151,6 +1156,9 @@ span{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
     .lastfooterleft{
     margin-top: 2%;
@@ -1167,13 +1175,23 @@ span{
     margin-top: 2%;
     width: 100%;
     display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
     }
         .lastfooterleftbtn{
+    width: 100%;
     background-color: gray;
      margin-top: 10%;
      margin-left: 0%;
     align-items: center;
     
+}
+ .lastfooterlefth3{
+  display: flex;
+  width:90vw;
+ 
 }
     .lastfooterleftbtn button{
     font-family: Arial, Helvetica, sans-serif;
@@ -1184,6 +1202,10 @@ span{
    font-weight: bold;
    border: none;
 }
+
+
+
+
  .lastfooterleftbor{
     width: 100%;
  }
@@ -1227,7 +1249,584 @@ span{
     .lastfooteerbarimg img{
         display: flex; 
         justify-content: center;
-        width:50vw;
+        width:40vw;
+    }
+        .lastfooterimgbarul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12%;
+    list-style: none; 
+    margin-top: 2%; 
+    width: 90%;
+}
+    .lastimgfooter{
+    display: flex ; 
+    justify-content: center;
+    margin-left: 15%;
+}
+    .lastfooterlefttoptext{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 3%; 
+    margin-right: 3%;
+}
+
+  .menuarea{
+    width: 100%;
+  }
+    .lastfootermaintext{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+
+/* ##################################### tablet screen ####################################### */
+
+@media(min-width:769px) and (max-width:1200px){
+        
+        .header1{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+    .header4{
+    display: flex;
+    width: 100vw;
+}
+    .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+   }
+    .header img{
+    display: flex;
+    width: 90%;
+    height:100% ;
+}
+ .rightsection{
+    margin-left: 0%;
+    margin-right: 0%;
+ }
+    .headertext1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    /* margin-right: 0%; */
+    
+}
+    .headerp p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform:uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+    .headerp{
+    width: 100%;
+    
+}
+   
+    .headerp h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-right: 3%;
+    text-align: center;
+    width: 100%;
+}
+
+.headertext {
+    width: 100%;
+    margin-left: 0%;
+}
+    .headertext h3{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    
+}
+    .menulist{
+        margin-top: 5%;
+      background-color: brown;
+}
+    .menue{
+   list-style: none;
+   display: flex;
+   justify-content:start;
+   margin-right: 1%;
+   background-color: brown;
+}
+    .menue li{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width: 25%;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    background-color: brown;
+    align-items: center;
+}
+   .menue li a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+
+}
+    .hero{
+    margin-top: 3%;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+ .heroimg{
+    width:100%;
+    display: flex;
+    margin-left:1.6%;
+    /* justify-content: center; */
+}
+ .heroimg img{
+    width:98%;
+    height: 100%;
+     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+}
+    .heroimg2{
+    width: 100%;
+      box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+}
+   .heroimg2{
+    margin-top: 5%;
+    background-image: url("./pics/form_bg.jpg");
+    justify-content: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%; 
+    margin-left: 1%;
+}
+  .form-row{
+    display: flex;
+ 
+  }
+    .form-row label {
+  font-family: Arial, Helvetica, sans-serif;  
+  width:20%; 
+  display: flex;
+  text-align:right;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 3%;
+}
+   .form-row input {
+    display: flex;
+    flex-wrap: wrap;
+  padding:1px;
+  width: 50%;
+  height: 4vh;
+  box-sizing: border-box;
+}
+   .headtext{
+    width: 100%;
+    display: flex;
+   
+   }
+    .firsth1{
+    width: 50%;
+    padding: 2px;
+    
+}
+    .firsth1 h2{
+    font-size:2rem ;
+    
+}
+    .firstp{
+        margin-left: 1%;
+        width: 100%;
+    }
+  .firstp p{
+    margin-left: 0%;
+    font-size:25px ;
+    
+    
+}
+    .firstpspan{
+    font-size:3rem ;
+    
+}
+    .secandp{
+    margin-left: 1%;
+    width: 100%;
+    margin-left: 0%;
+    font-size:14px ;
+    
+}
+    .secandp p{
+        width: 100%;
+    font-size:25px ;
+    margin-left: 1%;
+    
+}
+    .leftin{
+    width: 55%;
+    height: 10.4vh;
+}
+    .rightimgg{
+        margin-top: 0%;
+    margin-left: 3%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+   
+    
+}
+    .rightimgg img{
+   
+    width: 20vw;
+    height: 9vh;
+    transform: rotate(13deg);
+    transform-origin: left bottom;
+    margin-right: 15%;
+}
+    textarea{
+        margin-top: 8%;
+    width:100%;
+    height: 12vh;
+    margin-left: 0%;
+    resize: none;
+    
+}
+   .imgfooter{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+    .imgfoterp p{
+        margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.623);
+}
+   .imgfoterbtn{
+    margin-left: 0%;
+    width: 80%;
+    margin-bottom: 5%;
+   }
+    .imgfoterbtn button{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    padding: 3px;
+    font-weight: bolder;
+    background-color: rgba(170, 4, 4, 0.959);
+    color: white;
+    font-size: 25px;
+    height: 7vh;
+    overflow: hidden;
+    border: none;
+}
+ .imgfoterbtn img{
+    width: 2%;
+ }
+ /* ########################################## section bar ################################# */
+
+   .contentsection{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0%;
+   }
+    
+   .leftsidebar{
+    width:49.8%;
+   }
+   .maincontent{
+    width:48%;
+    border-right: none;
+   }
+    .leftsidebarppp{
+        width: 100%;
+    }
+    .leftsidebarleft{
+        
+        justify-content: center;
+        width: 100%;
+    }
+    .leftsidebartext h3{
+       font-size:35px;
+    }
+   .divtopleft{
+     width: 100%;
+   }
+   .marginleft{
+    margin-left: 0%;
+   }
+   .leftsidebartext p{
+     font-size: 30px;
+   }
+   .leftsidebarleft p{
+    font-size: 16px;
+   }
+   .leftsidebarright{
+     width: 100%;
+     justify-content: center;
+   }
+   .leftsidebarright img{
+    width: 30%;
+   }
+   .marginleftbtn{
+    width: 50%;
+    justify-content: center;
+    margin-left: 30%;
+
+   }
+   .marginleftbtn button{
+    width: 70%;
+    margin-left: 7%;
+     font-size: 20px;
+     margin-right: 0%;
+   }
+   .divtopleftleft{
+    width: 50%;
+   }
+   .divtopleftleft h3{
+    font-size: 28px;
+   }
+  .divtopleftleft p{
+    width: 100%;
+    font-size: 16px;
+  }
+ 
+  .divtopright img{
+    width: 100%;
+  }
+.divbotomleft h3{
+    font-size:28px;
+}
+.btntop{
+    width:60%;
+}
+.divtopright{
+    justify-content: start;
+
+}
+ .btntoptop{
+     width: 100%;
+     justify-content: center;
+ }
+  .btntoptop button{
+    width: 60%;
+    margin-left: 30%;
+     font-size: 20px;
+  }
+  .divbotomleftleft{
+    width: 100%;
+    justify-content: start;
+  }
+  .divbotomleft{
+    width: 50%;
+  }
+  .divbotomleft p{
+    font-size: 16px;
+  }
+  .divbotomright{
+    margin-top: 3%;
+  }
+  .divbotomright img{
+     width:100%;
+  }
+  .btnbottom{
+    width: 57%;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 6%;
+
+  }
+  .btnbottom button{
+       width: 95%;
+    margin-left: 20%;
+    font-size: 20px;
+  }
+  button img{
+    width: 6%;
+  }
+.btnbottombottom{
+     width: 62%;
+     justify-content: center;
+     margin-left: 0%;
+     margin-bottom: 5%;
+ }
+
+  
+ .rightsidebartop{
+    width: 100%;
+ }
+  .rightsidebarleft img{
+    width: 90%;
+    height: 0%;
+  }
+  .rightsidebartexttext{
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .rightsidebartexttextp p {
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+  }
+  .rightsidebartexttextp p{
+    width: 100%;
+    text-align: center;
+  }
+  .rightsidebartext{
+    margin-left: 0%;
+  }
+  .rightsidebarbtn{
+    margin-left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+  }
+  .rightsidebarbtn button{
+    width: 80%;
+    margin-left: 0%;
+    font-size: 25px;
+  }
+  /* #################################### last footer ######################################### */
+  
+  .lastfooterlefth2{
+    margin-bottom: 0%;
+  }
+
+    .lastfooterlefth3{
+  display: flex;
+  width:90vw;
+ 
+}
+   .lastfooterlefth3 h3{
+    font-size: 40px;
+ 
+}
+    .lastfooter{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+    .lastfooterleft{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    }
+
+        .lastfootermain{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    }
+        .lastfooterright{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    }
+        .lastfooterleftbtn{
+    background-color: gray;
+     margin-top: 5%;
+     margin-left: 0%;
+    align-items: center;
+    margin-right: 0%;
+    display: flex;
+    justify-content: end;
+    justify-items: end;
+    width: 100%;
+    
+}
+ .container-fluid{
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+ }
+ .lastfooterleftbor{
+    margin-bottom: 3%;
+ }
+    .lastfooterleftbtn button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: gray;
+   width: 40vw;
+   font-size: 40px;
+   font-weight: bold;
+   border: none;
+}
+ .lastfooterleftbor{
+    width: 100%;
+ }
+   .lastfootermain h1{
+    margin-top: 3%;
+    font-size: 28px;
+   }
+       .lastfooterright{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .lastfooterrightbor{
+    margin-left: 7% ;
+    margin-right:7% ;
+    margin-bottom: 12%;
+    width: 100%;
+    
+    justify-content: center;
+    align-items: center;
+  
+}
+   .lastfooterrightbtn{
+    margin-top: 5%;
+    border-top: 2px solid rgba(0, 0, 0, 0.37);
+    width: 60%;
+    margin-left: 20%;
+    }
+        .lastfooterrightbtn button{
+    background-color: rgba(170, 4, 4, 0.959);
+    padding: 4px;
+    color: white;
+    border: none;
+    margin-left:6%;
+    width: 60%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4) ;
+}
+ .lastfooterleftbtn button img{
+   width: 6%;
+ }
+    .lastfooteerbarimg img{
+        display: flex; 
+        justify-content: center;
+        width:12vw;
     }
         .lastfooterimgbarul{
     display: flex;
@@ -1256,7 +1855,34 @@ span{
     width: 100%;
   }
     .lastfootermaintext{
-        margin-left: 3%;
-        margin-right: 3%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+        justify-content: center;
+        justify-items: center;
     }
+    .lastfooterright{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+    }
+    .lastfooterimgbar{
+        width: 30%;
+    }
+    .lastfootertextbar{
+        width: 40%;
+    }
+    .lastimgfooter{
+        margin-left: 15%;
+        margin-right: 0%;
+    }
+    .lastfooterimgbarul{
+        width: 200%;
+        display: flex;
+        justify-content:space-around;
+        justify-items: center;
+        margin-left: 80%;
+    }
+    
+
 }
