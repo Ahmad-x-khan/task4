@@ -941,7 +941,11 @@ span{
     overflow: hidden;
 }
  .divtopleftl{
+    width: 100%;
+
+    justify-content: center;
     margin-left: 0%;
+    margin-right: 0%;
  }
    .divtopleft{
     width: 100%;
@@ -995,6 +999,8 @@ span{
        flex-wrap: wrap;
        justify-content: center;
        align-items: center;
+       margin-left:0%;
+       margin-right: 0%;
 
    }
    .divtopleft{
@@ -1009,26 +1015,23 @@ span{
     border: none;
    }
       .btntoptop{
-       display: flex;
+        display: flex;
        justify-content: center;
        align-items: center;
        border-top: 2px solid rgba(0, 0, 0, 0.219);
-       width: 65%;
-       margin-left: 15%;
-       margin-right: 0%;
+       width: 60%;
+       margin-left: 20%;
+       margin-right: 10%;
    }
     .btntoptop button{
     color: white;
-    background-color: rgba(170, 4, 4, 0.959) ;
-    margin-right:10%;
-    padding: 6px;
-    margin-left: 15%;
-    padding-left: 8px;
-    padding-right: 8px;
-    border: none;
-    width:50vw;
-    font-size: 15px;
+    background-color:  rgba(170, 4, 4, 0.959) ;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 6px;
+    margin-left: 0%;
+    border: none;
+     width: 41vw;
+    font-size: 15px;
      box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4) ;
 }
  .divbotomleftleft{
@@ -1057,7 +1060,7 @@ span{
 
    }
     .divbotom{
-        padding-bottom: 7%;
+    padding-bottom: 7%;
     width: 100%;
     justify-content: space-around;
 }  
@@ -1569,10 +1572,10 @@ span{
     .leftsidebarleft{
         
         justify-content: center;
-        width: 100%;
+        width: 70%;
     }
     .leftsidebartext h3{
-       font-size:35px;
+       font-size:30px;
     }
    .divtopleft{
      width: 100%;
@@ -1581,17 +1584,17 @@ span{
     margin-left: 0%;
    }
    .leftsidebartext p{
-     font-size: 30px;
+     font-size: 25px;
    }
    .leftsidebarleft p{
     font-size: 16px;
    }
    .leftsidebarright{
-     width: 100%;
+     width: 30%;
      justify-content: center;
    }
    .leftsidebarright img{
-    width: 30%;
+    width: 70%;
    }
    .marginleftbtn{
     width: 50%;
@@ -1602,7 +1605,7 @@ span{
    .marginleftbtn button{
     width: 70%;
     margin-left: 7%;
-     font-size: 20px;
+     font-size: 15px;
      margin-right: 0%;
    }
    .divtopleftleft{
@@ -1636,7 +1639,7 @@ span{
   .btntoptop button{
     width: 60%;
     margin-left: 30%;
-     font-size: 20px;
+     font-size: 15px;
   }
   .divbotomleftleft{
     width: 100%;
@@ -1664,7 +1667,7 @@ span{
   .btnbottom button{
        width: 95%;
     margin-left: 20%;
-    font-size: 20px;
+    font-size: 15px;
   }
   button img{
     width: 6%;
@@ -1714,7 +1717,7 @@ span{
   .rightsidebarbtn button{
     width: 80%;
     margin-left: 0%;
-    font-size: 25px;
+    font-size: 22px;
   }
   /* #################################### last footer ######################################### */
   
@@ -1724,7 +1727,7 @@ span{
 
     .lastfooterlefth3{
   display: flex;
-  width:90vw;
+  width:70vw;
  
 }
    .lastfooterlefth3 h3{
@@ -1774,7 +1777,8 @@ span{
     margin-bottom: 3%;
  }
  .lastfooterleftimg img{
-    height: 18vh;
+    height: 13vh;
+    
  }
     .lastfooterleftbtn button{
     font-family: Arial, Helvetica, sans-serif;
