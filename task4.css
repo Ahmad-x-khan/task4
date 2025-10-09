@@ -1727,11 +1727,11 @@ span{
 
     .lastfooterlefth3{
   display: flex;
-  width:70vw;
+  width:100%;
  
 }
    .lastfooterlefth3 h3{
-    font-size: 25px;
+    font-size: 20px;
  
 }
     .lastfooter{
@@ -1742,13 +1742,13 @@ span{
 }
     .lastfooterleft{
     margin-top: 2%;
-    width: 100%;
+    width: 48%;
     display: flex;
     }
 
         .lastfootermain{
     margin-top: 2%;
-    width: 100%;
+    width: 48%;
     display: flex;
     }
         .lastfooterright{
@@ -1758,7 +1758,7 @@ span{
     }
         .lastfooterleftbtn{
     background-color: gray;
-     margin-top: 2.6%;
+     margin-top: 5%;
      margin-left: 0%;
     align-items: center;
     margin-right: 0%;
@@ -1777,20 +1777,24 @@ span{
     margin-bottom: 3%;
  }
  .lastfooterleftimg img{
-    height: 13vh;
+    height: 10vh;
     
  }
     .lastfooterleftbtn button{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: gray;
-   width: 40vw;
-   font-size: 20px;
+   width:100%;
+   font-size: 16px;
    font-weight: bold;
+   margin-left: 0%;
+   margin-right: 3%;
    border: none;
+   display: flex;
+   justify-content: end;
 }
  .lastfooterleftbor{
-    width: 100%;
+    width: 90%;
  }
    .lastfootermain h1{
     margin-top: 3%;
@@ -1830,7 +1834,7 @@ span{
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4) ;
 }
  .lastfooterleftbtn button img{
-   width: 2.7%;
+   width: 3%;
  }
     .lastfooteerbarimg img{
         display: flex; 
