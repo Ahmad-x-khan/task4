@@ -1,10 +1,12 @@
-*{
+ *{
     margin: 0%;
     padding: 0%;
 }
-body{
-    background: gray;
-}
+
+/* body{
+    background-color: gray;
+} */
+/* 
 .header2{
     margin-right: 2.3%;
     margin-left: 2.3%;
@@ -85,44 +87,78 @@ body{
 .menue li:hover{
     background-color: gray;
 }
+ */
 
+ .heroimg{
+    background-image: url("./pics/gurantee_banner.gif");
+    justify-content:start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    height:100%; 
+    margin-right: 0%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
 .hero{
-    margin-top: 3%;
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
 
 }
 
-.heroimg{
-    width:50%;
+/* .heroimg{
+    width:49%;
+    height: 100%;
     display: flex;
-    margin-left:1.6%;
-    /* justify-content: center; */
+    margin-left:0;
+    justify-content: start;
+} */
+    /* @media (max-width: 767px) {
+  .hero .row {
+    flex-direction: column;
+  }
+} */
+.menu-link {
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  border-radius: 5px;
 }
 
-.heroimg img{
-    width: 46.8vw;
-    height: 65vh;
-     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+.menu-link:hover {
+  background-color: gray !important;   
+  color: white !important;             
 }
 
-.heroimg2{
-    width: 45%;
-
-      box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
-}
+ 
+    .headerp h2{
+        font-size: 3.2rem;
+        width: 100%;
+    }
+    .headerp p{
+        font-size: 1.32rem;
+    }
 
 .heroimg2{
     background-image: url("./pics/form_bg.jpg");
     justify-content: end;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 40.8vw;
-    height:65vh; 
-    margin-right: 2%;
+    background-position: center;
+    width: 100%;
+    height:100%; 
+    margin-right: 0%;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
 }
 
-.form-row {
+.hedertext5 h2{
+    height: 50%;
+}
+
+
+ .form-row {
   display: flex;
   align-items: center;
   margin-bottom: 3%; 
@@ -134,17 +170,48 @@ body{
   text-align:right;
   font-size: 16px;
   font-weight: bolder;
-  margin-left: 6%;
+  margin-left: 4%;
 }
 
 .form-row input {
-  /* flex: 1; */
+
   padding:1px;
   width: 70%;
   height: 4.5vh;
   box-sizing: border-box;
+}  
+.imgfoterbtn button{
+     background-color: rgba(170, 4, 4, 0.959);
+    border: none;
 }
 
+
+@media(max-width:1024px){
+   .heroimg{
+    width:100%;
+    height: 100%;
+    display: flex;
+    margin-left:0;
+    justify-content: start;
+    margin-bottom: 2%;
+    }
+    .newdev{
+        margin-top: 3%;
+    display: flex;
+    width:100%;
+    height: 100%;
+    
+}
+.heroimg{
+    width:100%;
+    height:80vh;
+    background-size: cover;
+     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+     overflow: hidden;
+    
+}
+}
+/*
 .headtext{
     width: 100%;
     display: flex;
@@ -211,7 +278,7 @@ body{
     margin-left: 3%;
     
 }
-
+*/
 .rightimgg img{
    
     width: 15.4vw;
@@ -221,13 +288,11 @@ body{
 }
 
 textarea{
-    margin-top: 3%;
-    width: 86.5%;
-    height: 12vh;
-    margin-left: 7%;
+    height: 13vh;
+    width: 95%;
     resize: none;
 }
-
+/*
 .imgfooter{
     margin-top: 3.5%;
     margin-left: 5%;
@@ -643,7 +708,7 @@ span{
  }
 
 
-/* ####################### media query ####################### */
+/* ####################### media query ####################### 
 
 @media(max-width:768px){
     .header1{
@@ -675,7 +740,7 @@ span{
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    /* margin-right: 0%; */
+    /* margin-right: 0%; 
     
 }
     .headerp p{
@@ -749,7 +814,7 @@ span{
     width:100%;
     display: flex;
     margin-left:1.6%;
-    /* justify-content: center; */
+    /* justify-content: center; 
 }
  .heroimg img{
     width:98%;
@@ -1288,7 +1353,7 @@ span{
     }
 }
 
-/* ##################################### tablet screen ####################################### */
+/* ##################################### tablet screen ####################################### 
 
 @media(min-width:769px) and (max-width:1200px){
         
@@ -1325,7 +1390,7 @@ span{
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    /* margin-right: 0%; */
+    /* margin-right: 0%; 
     
 }
     .headerp p{
@@ -1404,7 +1469,7 @@ span{
     width:100%;
     display: flex;
     margin-left:1.6%;
-    /* justify-content: center; */
+    /* justify-content: center; 
 }
  .heroimg img{
     width:98%;
@@ -1550,7 +1615,7 @@ span{
  .imgfoterbtn img{
     width: 2%;
  }
- /* ########################################## section bar ################################# */
+ /* ########################################## section bar ################################# 
 
    .contentsection{
     width: 100%;
@@ -1719,7 +1784,7 @@ span{
     margin-left: 0%;
     font-size: 22px;
   }
-  /* #################################### last footer ######################################### */
+  /* #################################### last footer ######################################### 
   
   .lastfooterlefth2{
     margin-bottom: 0%;
@@ -1898,4 +1963,4 @@ span{
     }
     
 
-}
+} 
